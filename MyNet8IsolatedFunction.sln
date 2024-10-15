@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyNet8IsolatedFunction", "MyNet8IsolatedFunction.csproj", "{877CDFEC-E5F9-4685-941C-4C53A748F369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{3BEDDE42-D01F-4CAE-B9E0-1F112CD57FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{EDA55DA3-F8B0-4C14-B852-79F8F12E033F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{84C0331B-57C1-4212-BD7E-23D9B23F735A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{4B773CA0-9669-46AB-9780-F00DD29F5342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877CDFEC-E5F9-4685-941C-4C53A748F369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877CDFEC-E5F9-4685-941C-4C53A748F369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877CDFEC-E5F9-4685-941C-4C53A748F369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877CDFEC-E5F9-4685-941C-4C53A748F369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B773CA0-9669-46AB-9780-F00DD29F5342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B773CA0-9669-46AB-9780-F00DD29F5342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B773CA0-9669-46AB-9780-F00DD29F5342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B773CA0-9669-46AB-9780-F00DD29F5342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDA55DA3-F8B0-4C14-B852-79F8F12E033F} = {3BEDDE42-D01F-4CAE-B9E0-1F112CD57FA7}
+		{84C0331B-57C1-4212-BD7E-23D9B23F735A} = {EDA55DA3-F8B0-4C14-B852-79F8F12E033F}
+		{4B773CA0-9669-46AB-9780-F00DD29F5342} = {84C0331B-57C1-4212-BD7E-23D9B23F735A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B48A2E-5E63-4649-B641-B566426B6754}
+	EndGlobalSection
+EndGlobal
